@@ -118,7 +118,7 @@ p {
 } */
 
 .header a img {
-    width: 100%;
+    width: 60%;
     justify-content: center;
     fill: var(--color-lightestblue);
 }

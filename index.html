@@ -36,7 +36,12 @@
   <!-- Your HTML goes here -->
   <main>
     <section class="header">
-      <nav>
+      <div class="menu-button" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <nav class="nav-links">
           <a class="h-logo" href=#logo><img src="img/SVG/cbc-logo.svg"></a>
           <a class="h-products" href=#products>products</a>
           <a class="h-pricing" href=#pricing>pricing</a>
@@ -56,12 +61,12 @@
       </div>
     </section>
 
-    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500" >
+    <div>
       <section id="products" class="our-products">
-        <div class="our-products-heading">
+        <div class="our-products-heading" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">
           <h1>our products</h1>
         </div>
-        <div class="blades">
+        <div class="blades" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">
           <div class="blade-1-text">
             <h2>angled chisel blade</h2>
             <p>used for shaping materials, light chiseling or removing layers in precise areas where detail is key</p>
@@ -116,29 +121,30 @@
       </section>
     </div>
 
-    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">
+    <div>
       <section id="pricing" class="pricing-chart">
         <h1>pricing</h1>
         <div class="pricing-chart-deets">
-          <div class="subscriptions">
-            <div class="monthly">
-              <h2 class="price">$20.99</h2>
-              <h2 class="type">monthly</h2>
-              <ul>
-                <li>60 blades total</li>
-                <li>10 of each type</li>
-                <li>2 craft knife bases</li>
-              </ul>
-            </div>
-            <div class="yearly">
-              <h2 class="price">$39.99</h2>
-              <h2 class="type">yearly</h2>
-              <ul>
-                <li>450 blades total</li>
-                <li>75 of each type</li>
-                <li>6 craft knife bases</li>
-              </ul>
-            </div>
+          <!-- <div class="money-1">
+            <img src="img/SVG/money.svg">
+          </div> -->
+          <div class="monthly">
+            <h2 class="price">$20.99</h2>
+            <h2 class="type">monthly</h2>
+            <ul>
+              <li>60 blades total</li>
+              <li>10 of each type</li>
+              <li>2 craft knife bases</li>
+            </ul>
+          </div>
+          <div class="yearly">
+            <h2 class="price">$39.99</h2>
+            <h2 class="type">yearly</h2>
+            <ul>
+              <li>450 blades total</li>
+              <li>75 of each type</li>
+              <li>6 craft knife bases</li>
+            </ul>
           </div>
           <div class="single-types">
             <h2 class="price">$2.99+</h2>
@@ -151,27 +157,23 @@
                 <li>100x = $29.99</li>
               </ul>
           </div>
-          <div class="samples">
-            <h2 class="price">free!</h2>
-              <h2 class="type">just pay shipping</h2>
-              <ul>
-                <li>comes with three of our best selling blades</li>
-              </ul>
-          </div>
+          <!-- <div class="money-2">
+            <img src="img/SVG/money.svg">
+          </div> -->
         </div>
       </section>
     </div>
 
     <div >
       <section class="full-length-image-2">
-        <img src="img/full-length-img-2.jpg">
+        <!-- <img src="img/full-length-img-2.jpg"> -->
       </section>
     </div>
 
-    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">
+    <div>
       <section id="faq" class="faq">
-        <h1>frequently asked questions</h1>
-        <div class="questions">
+        <h1 data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">frequently asked questions</h1>
+        <div class="questions" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">
           <div class="q1">
             <h2>how do i recycle for credit?</h2>
             <p>easy! each of our products come with small closable containers made from recycled plastic bottles. you put your old blades in there and send them back for credit. you get $1.00 back for every 5 blades recycled. the blades you recycle get reused to make new blades instead of going to waste.</p>
@@ -188,26 +190,25 @@
       </section>
     </div>
 
-    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">
+    <div>
       <section id="our-story" class="our-story">
-        <h1>our story</h1>
-        <div class="os-content">
           <div class="os-text">
-            <p>the craft blade company started as an idea between two friends who used craft knives all the time for projects such as model making and paper crafting. since the blades do not have the longest life span depending on how often they are used they wanted a way to still be able to use them but in a not as harmful way. they decided to produce the different blades from recycled scrap metal and they also have a turn it in program where people can send dull blades back for credit on their site to buy new ones.</p>
-            <p>two years later we have been working hard on making them affordable, good quality, durable, and greener. now we have been making them since 1998. </p>
+            <h1 data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">our story</h1>
+            <p data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">the craft blade company started as an idea between two friends who used craft knives all the time for projects such as model making and paper crafting. since the blades do not have the longest life span depending on how often they are used they wanted a way to still be able to use them but in a not as harmful way. they decided to produce the different blades from recycled scrap metal and they also have a turn it in program where people can send dull blades back for credit on their site to buy new ones.
+              <br>
+              two years later we have been working hard on making them affordable, good quality, durable, and greener. now we have been making them since 1998. </p>
           </div>
-          <div class="os-img">
+          <div class="os-img" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">
             <img src="img/os-img.png">
           </div>
-        </div>
       </section>
     </div>
 
-    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">
+    <div >
       <section id="newsletter" class="call-to-action">
-        <h1>still interested?</h1>
+        <h1 data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">still interested?</h1>
         <div class="cta-content">
-          <div class="find-us">
+          <div class="find-us" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">
             <h2>find us at a store near you</h2>
             <div class="stores">
               <img class="mickeys" src="img/svg/mickeys.svg">
@@ -215,7 +216,7 @@
               <img class="walmart" src="img/SVG/walmart.svg">
             </div>
           </div>
-          <div class="newsletter-cta">
+          <div class="newsletter-cta" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">
             <h2>subscribe to our newsletter</h2>
             <p>still interested in our journey? come join us by subscribing to our weekly newsletter. we post ideas of the week, crafts made by you guys, and sales going on during the week. we promise we will not spam you!</p>
               <form id="email-form">

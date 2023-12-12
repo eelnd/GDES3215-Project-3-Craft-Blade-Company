@@ -617,7 +617,7 @@ p {
  .full-length-image-2 {
     width: 100%;
     height: 100vh;
-    background-image: url('/Users/eeland/Desktop/EE-gdes3215-project-3.3/GDES3215-Project-3-Craft-Blade-Company/img/full-length-img-2.jpg');
+    background-image: url('/img/full-length-img-2.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

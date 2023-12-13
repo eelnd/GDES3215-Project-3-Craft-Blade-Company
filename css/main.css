@@ -70,7 +70,8 @@ p {
  }
 
 
- /* .header .menu-button {
+
+ .header .menu-button {
    cursor: pointer;
    display: none;
  }
@@ -107,7 +108,7 @@ p {
    .nav-links a {
      padding: 1rem;
    }
- } */
+ }
 
  /* .header ul {
     list-style-type: none;
@@ -169,40 +170,6 @@ p {
    display:grid;
    grid-column: 11 / span 2;
    grid-row: 1;
-}
-
-@media screen and (max-width: 40rem) {
-   .header nav {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      background-color: var(--color-darkgray);
-      padding: 1rem 2rem;
-    }
-
-   .header .nav-links a.h-logo {
-      display:none;
-   }
-   
-   .header .nav-links a.h-products {
-      display:none;
-   }
-   
-   .header .nav-links a.h-pricing {
-      display:none;
-   }
-   
-   .header .nav-links a.h-faq {
-      display:none;
-   }
-   
-   .header .nav-links a.h-os {
-      display:none;
-   }
-   
-   .header .nav-links a.h-newsletter {
-      display:none;
-   }
 }
 
  /*hero*/
@@ -296,7 +263,7 @@ p {
     padding: 1rem;
  }
 
- @media screen and (max-width: 30) {
+ @media screen and (max-width: 40rem) {
    .our-products .blades {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -650,7 +617,7 @@ p {
  .full-length-image-2 {
     width: 100%;
     height: 100vh;
-    background-image: url('../img/full-length-img-2.jpg');
+    background-image: url('GDES3215-Project-3-Craft-Blade-Company/img/full-length-img-2.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -717,7 +684,7 @@ p {
     color: var(--color-white);
  }
 
- @media screen and (max-width: 30) {
+ @media screen and (max-width: 40rem) {
    .our-story {
       padding: 1rem;
       grid-template-columns: 1fr;
@@ -852,7 +819,7 @@ p {
     grid-gap: 2rem;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .call-to-action .cta-content .find-us .stores {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
@@ -886,7 +853,7 @@ p {
     align-self: center;
  }
 
- @media screen and (max-width:30rem) {
+ @media screen and (max-width: 40rem) {
    .call-to-action .cta-content .find-us .stores .mickeys {
       grid-column: 1;
       grid-row: 1;

@@ -171,6 +171,32 @@ p {
    grid-row: 1;
 }
 
+@media screen and (max-width: 30rem) {
+   .header .nav-links a.h-logo {
+      display:none;
+   }
+   
+   .header .nav-links a.h-products {
+      display:none;
+   }
+   
+   .header .nav-links a.h-pricing {
+      display:none;
+   }
+   
+   .header .nav-links a.h-faq {
+      display:none;
+   }
+   
+   .header .nav-links a.h-os {
+      display:none;
+   }
+   
+   .header .nav-links a.h-newsletter {
+      display:none;
+   }
+}
+
  /*hero*/
 .hero .hero-img{
     display:grid;

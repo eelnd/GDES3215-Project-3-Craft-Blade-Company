@@ -134,7 +134,7 @@ p {
     font-weight: light;
 }
 
-.header a.h-logo {
+.header .nav-links a.h-logo {
    display:grid;
    grid-column: 1;
    grid-row: 1;

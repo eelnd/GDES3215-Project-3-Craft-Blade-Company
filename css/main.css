@@ -41,7 +41,7 @@ p {
     font-size: 1.25rem;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 40rem) {
    h1 {
       font-size: 3rem;
    }
@@ -171,7 +171,7 @@ p {
    grid-row: 1;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 40rem) {
    .header nav {
       display: grid;
       grid-template-columns: 1fr;
@@ -232,7 +232,7 @@ p {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .hero .hero-img h1 {
       font-size: 4rem !important;
       padding: 0 1rem;
@@ -275,7 +275,7 @@ p {
     margin: 0 3rem;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .our-products {
       padding: 1rem;
       margin: 0 0.5rem;
@@ -391,7 +391,7 @@ p {
     grid-row: 1;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .our-products .blades img {
       height: 8rem;
       text-align: left;
@@ -473,7 +473,7 @@ p {
     height: 45rem;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .full-length-image-1 video {
       height: 15rem;
       object-fit: cover;
@@ -491,7 +491,7 @@ p {
     background-color: var(--color-lightblue);
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .pricing-chart {
       padding: 1rem;
    }
@@ -512,7 +512,7 @@ p {
     text-align: center;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .pricing-chart .pricing-chart-deets {
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto;
@@ -545,7 +545,7 @@ p {
    margin: 0;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .pricing-chart .pricing-chart-deets .monthly h2.type {
       font-size: 1rem;
     }
@@ -610,7 +610,7 @@ p {
     background-color: var(--color-gray);
     padding: 1rem;
  }
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .pricing-chart .pricing-chart-deets .monthly {
       grid-column: 1;
       grid-row: 1;
@@ -657,7 +657,7 @@ p {
     background-attachment: fixed;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .full-length-image-2 {
       height: 20rem;
    }
@@ -673,7 +673,7 @@ p {
     margin: 0 3rem;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .faq {
       padding: 1rem;
       margin: 0 .5rem;
@@ -688,7 +688,7 @@ p {
     padding: 1rem;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .faq .questions {
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto;
@@ -774,7 +774,7 @@ p {
    margin-right: auto;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .our-story .os-img {
       grid-row: 2;
       grid-column: 1;
@@ -791,7 +791,7 @@ p {
     margin: 0 3rem;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .call-to-action {
       padding: 1rem;
       margin: 0 .5rem;
@@ -811,7 +811,7 @@ p {
    text-transform: uppercase;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .call-to-action h2 {
       margin: 0 0.5rem;
       padding: 0 1rem;
@@ -827,7 +827,7 @@ p {
     grid-gap: 2rem;
  }
 
- @media screen and (max-width: 30rem) {
+ @media screen and (max-width: 40rem) {
    .call-to-action .cta-content{
       padding: 0 1rem;
       grid-gap: 1rem;

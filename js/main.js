@@ -30,7 +30,7 @@ $(document).ready(function() {
   moveText();
 });
 
-function toggleMenu() {
-  const navLinks = document.querySelector('.nav-links');
-  navLinks.style.display = (navLinks.style.display === 'flex') ? 'none' : 'flex';
-}
+// function toggleMenu() {
+//   const navLinks = document.querySelector('.nav-links');
+//   navLinks.style.display = (navLinks.style.display === 'flex') ? 'none' : 'flex';
+// }

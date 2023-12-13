@@ -69,7 +69,13 @@ p {
    padding: 1rem 2rem;
  }
 
-
+ .nav-links {
+   display: none;
+ }
+ 
+ .nav-links.show-menu {
+   display: flex;
+ }
 
  .header .menu-button {
    cursor: pointer;

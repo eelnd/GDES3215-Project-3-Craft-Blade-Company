@@ -30,10 +30,9 @@ $(document).ready(function() {
   moveText();
 });
 
-// function toggleMenu() {
-//   const navLinks = document.querySelector('.nav-links');
-//   navLinks.style.display = (navLinks.style.display === 'flex') ? 'none' : 'flex';
-// }
+function toggleMenu() {
+  $(".nav-links").toggleClass("show-menu");
+}
 
 // use vanilla js to add buttons to the page
 // const btns = '<button class="btn-menu">Menu</button><button class="btn-close">Close</button>';

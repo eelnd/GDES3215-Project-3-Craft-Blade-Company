@@ -34,3 +34,26 @@ $(document).ready(function() {
 //   const navLinks = document.querySelector('.nav-links');
 //   navLinks.style.display = (navLinks.style.display === 'flex') ? 'none' : 'flex';
 // }
+
+// use vanilla js to add buttons to the page
+const btns = '<button class="btn-menu">Menu</button><button class="btn-close">Close</button>';
+const header = document.querySelector('header');
+header.insertAdjacentHTML('beforeend',btns);
+
+function initMenu(){
+  $('body').addClass('js');
+  $('nav').addClass('hide');
+  $('.btn-close').addClass('hide');
+}
+
+$('.btn-menu').click(function(){
+  $('nav').removeClass('hide');
+  $('.btn-close').removeClass('hide');
+})
+
+$('.btn-close').click(function(){
+  $('nav').addClass('hide');
+  $('.btn-close').addClass('hide');
+})
+
+initMenu();
